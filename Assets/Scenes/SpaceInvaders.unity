@@ -597,7 +597,66 @@ MonoBehaviour:
   - {fileID: 1812860180527015215, guid: dede0e850a20390458e670c15cc19efa, type: 3}
   rows: 5
   cols: 11
-  speed: 1
+  speed:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0043854592
+      value: 2.7068071
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3886049
+      value: 3.0995398
+      inSlope: 0.37985095
+      outSlope: 0.37985095
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.4759179
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.47116104
+      value: 3.113698
+      inSlope: -0.1958652
+      outSlope: -0.1958652
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.7391645
+    - serializedVersion: 3
+      time: 0.70496875
+      value: 3.194292
+      inSlope: 2.243187
+      outSlope: 2.243187
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.262457
+    - serializedVersion: 3
+      time: 0.8650258
+      value: 3.5070462
+      inSlope: 0.59061766
+      outSlope: 0.59061766
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.9880853
+      value: 3.6163368
+      inSlope: -0.93796664
+      outSlope: -0.93796664
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.524723
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &956205969
 Transform:
   m_ObjectHideFlags: 0

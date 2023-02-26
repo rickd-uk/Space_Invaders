@@ -17,7 +17,8 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // When projectile collides with any object destroy it
-        destroyed.Invoke();
+        if (destroyed != null) destroyed.Invoke();
+
         Destroy(gameObject);
     }
 }
